@@ -1,0 +1,5 @@
+/* 首页广告区分PC和手机广告 */
+.sjbdmap{display: none;}
+@media (max-width: 768px){.sjbdmap{display: block !important;}}
+.pcbdmap{display: block;}
+@media (max-width: 768px){.pcbdmap{display: none;}
