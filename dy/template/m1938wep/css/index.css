@@ -58,7 +58,7 @@ body .fn-hide{display:none}
 
 .header {height: 3.33333rem;background-color:#1F87CB;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;z-index: 600;position: fixed;top: 0;left: 0;width: 100%;}
 .moreArrow { font-size: 0; line-height: 0; border: solid #5aace8; vertical-align: top; -moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
-.header .logo { display: block; background: url("../images/headerLogo2.png") center center no-repeat; background-size: 7rem 3.33333rem; width: 7rem; height: 3.33333rem; overflow: hidden; }
+.header .logo { display: block; background: url("../images/headerlogo.png") center center no-repeat; background-size: 7rem 3.33333rem; width: 7rem; height: 3.33333rem; overflow: hidden; }
 .header .aChannel, .header .aGoBack { display: block; height: 3.33333rem; padding: 0 0.83333rem; overflow: hidden; }
 .header .aChannel span, .header .aGoBack span { float: left; line-height: 3.33333rem; font-size: 1.2rem; color: #fff; }
 .header .aChannel .moreArrow, .header .aGoBack .moreArrow { border-width: 0 0.1rem 0.1rem 0; border-color: #fff; width: 0.5rem; height: 0.5rem; float: left; margin: 1.26667rem 0 0 0.5rem; }
