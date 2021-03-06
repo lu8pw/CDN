@@ -27,7 +27,7 @@
 }
 
 .header1:before {
-	background-image: url("../images/logo.png");
+	background-image: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/bllogo.png");
 	background-position: 2% center;
 	background-repeat: no-repeat;
 	width: 100%;
