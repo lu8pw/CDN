@@ -35,11 +35,11 @@ body .fn-hide{display:none}
 .clearfix:after { content: ""; display: table; clear: both; }
 @font-face {
   font-family: 'iconfont';
-  src: url('../fonts/font_1448978046_1349916.eot'); /* IE9*/
-  src: url('../fonts/font_1448978046_1349916.eot') format('embedded-opentype'), /* IE6-IE8 */
-  url('../fonts/font_1448978046_1349916.woff') format('woff'), /* chrome、firefox */
-  url('../fonts/font_1448978046_1349916.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url('../fonts/font_1448978046_1349916.svg#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/mianbaowep/fonts/font_1448978046_1349916.eot'); /* IE9*/
+  src: url('https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/mianbaowep/fonts/font_1448978046_1349916.eot') format('embedded-opentype'), /* IE6-IE8 */
+  url('https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/mianbaowep/fonts/font_1448978046_1349916.woff') format('woff'), /* chrome、firefox */
+  url('https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/mianbaowep/fonts/font_1448978046_1349916.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/mianbaowep/fonts/font_1448978046_1349916.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
                                                                                                                                                                    
 .iconfont{
@@ -58,7 +58,7 @@ body .fn-hide{display:none}
 
 .header {height: 3.33333rem;background-color:#1F87CB;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;z-index: 600;position: fixed;top: 0;left: 0;width: 100%;}
 .moreArrow { font-size: 0; line-height: 0; border: solid #5aace8; vertical-align: top; -moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
-.header .logo { display: block; background: url("../images/headerlogo.png") center center no-repeat; background-size: 7rem 3.33333rem; width: 7rem; height: 3.33333rem; overflow: hidden; }
+.header .logo { display: block; background: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/mianbaowep/images/headerlogo.png") center center no-repeat; background-size: 7rem 3.33333rem; width: 7rem; height: 3.33333rem; overflow: hidden; }
 .header .aChannel, .header .aGoBack { display: block; height: 3.33333rem; padding: 0 0.83333rem; overflow: hidden; }
 .header .aChannel span, .header .aGoBack span { float: left; line-height: 3.33333rem; font-size: 1.2rem; color: #fff; }
 .header .aChannel .moreArrow, .header .aGoBack .moreArrow { border-width: 0 0.1rem 0.1rem 0; border-color: #fff; width: 0.5rem; height: 0.5rem; float: left; margin: 1.26667rem 0 0 0.5rem; }
@@ -76,7 +76,7 @@ body .fn-hide{display:none}
 .header .headerChannelList a { width: 20%; text-align: center; color: #fff; font-size: 0.93333rem; float: left; }
 .header .headerChannelList a:hover { color: #fff; }
 .header .aChannelShow ~ .headerChannelList { display: block; }
-.globalIcon { background-image: url("../images/headiconmap.v3.png"); background-size: 16.66667rem 16.66667rem; background-repeat: no-repeat; width: 1.33333rem; height: 1.33333rem; display: block; overflow: hidden; }
+.globalIcon { background-image: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/mianbaowep/images/headiconmap.v3.png"); background-size: 16.66667rem 16.66667rem; background-repeat: no-repeat; width: 1.33333rem; height: 1.33333rem; display: block; overflow: hidden; }
 .globalIcon.indexIcon { background-position: 0 0; }
 .globalIcon.searchIcon { background-position: -4.2rem 0; }
 .globalIcon.collectIcon { background-position: -1.4rem 0; }
@@ -128,7 +128,7 @@ body .fn-hide{display:none}
 
 .menuNavList { display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; background-color:#FFF }
 .menuNavList a { display: block; -webkit-box-flex: 1; -moz-box-flex: 1; -ms-flex: 1; -webkit-flex: 1; flex: 1; text-align: center; padding: 1rem 0; }
-.menuNavList a .menuNavIcon { width: 3rem; height: 3rem; background: url("../images/indexmap.png") center center no-repeat; background-size: 16.66667rem 16.66667rem; margin: 0 auto; display: block; }
+.menuNavList a .menuNavIcon { width: 3rem; height: 3rem; background: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/mianbaowep/images/indexmap.png") center center no-repeat; background-size: 16.66667rem 16.66667rem; margin: 0 auto; display: block; }
 .menuNavList a .menuNavIcon.dianyingIcon { background-position: 0 0; }
 .menuNavList a .menuNavIcon.lianxujuIcon { background-position: -3rem 0; }
 .menuNavList a .menuNavIcon.zongyiIcon { background-position: -6rem 0; }
@@ -213,9 +213,9 @@ body .fn-hide{display:none}
 .list_tab_img li:nth-child(3n+1){ float: left;}
 .list_tab_img li:nth-child(3n+3){ float: right; }
 .list_tab_img li:nth-child(3n+2) {margin-left:2.28%;}
-.list_tab_img li .uptime{height:1.167rem;background:url(../images/dotbg.gif) repeat-x 0 center;text-align:center;margin-top:0.267rem}
+.list_tab_img li .uptime{height:1.167rem;background:url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/mianbaowep/images/dotbg.gif) repeat-x 0 center;text-align:center;margin-top:0.267rem}
 .list_tab_img li .uptime p{width:5rem;height:1.167rem;line-height:1.167rem;text-align:center;background:#94c8d7;border-radius:2px;margin:0 auto;color:#FFF; font-size:0.8rem}
-.list_tab_img li img,.new_tab_img li img{width: 100%; background:url(../images/lazyload.gif) no-repeat scroll center center transparent;border:0;-webkit-transition:all 1s ease-in-out;-o-transition:all 1s ease-in-out;-ms-transition:all 1s ease-in-out;-moz-transition:all 1s ease-in-out}
+.list_tab_img li img,.new_tab_img li img{width: 100%; background:url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/mianbaowep/images/lazyload.gif) no-repeat scroll center center transparent;border:0;-webkit-transition:all 1s ease-in-out;-o-transition:all 1s ease-in-out;-ms-transition:all 1s ease-in-out;-moz-transition:all 1s ease-in-out}
 .list_tab_img li p{ height:1.3rem;line-height:1.3rem; color:#999; overflow:hidden}
 .list_tab_img li p a{color:#999;}
 .list_tab_img li label,.list_tab_img li h2,.new_tab_img li label{ overflow:hidden;}
@@ -229,7 +229,7 @@ body .fn-hide{display:none}
 .list_tab_img li label.name{width: 100%;position:absolute;color:#FFF;bottom:0;z-index:3;right:0px;background:#7A7B7D;background:rgba(0,0,0,0.4);text-align:center}
 .list_tab_img li label.title{position:absolute;width:auto;color:#FFF;top:0px;z-index:3;right:0px;background:#7A7B7D;background:rgba(0,0,0,0.4);text-shadow:none;}
 .list_tab_img li label.score{display:block;width:auto;text-align:center;overflow:hidden;color:#fff;position:absolute;left:0;bottom:0;z-index:3;-webkit-text-size-adjust:none;background:#1F87CB;font-weight:700}
-.list_tab_img li label.status,.vod-n-img .status{ background-image: url("../images/status.png"); background-repeat: no-repeat; position: absolute;left:0;top:0;display:block; overflow: hidden; line-height: 0;background-size: 1.767rem 1.767rem; width:1.767rem; height:1.767rem; }
+.list_tab_img li label.status,.vod-n-img .status{ background-image: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/mianbaowep/images/status.png"); background-repeat: no-repeat; position: absolute;left:0;top:0;display:block; overflow: hidden; line-height: 0;background-size: 1.767rem 1.767rem; width:1.767rem; height:1.767rem; }
 
 .list_tab_img li .picsize{position:relative;}
 .list_tab_img .star-info{width:100%;height:auto;background:#7143A1;line-height:1.2rem;margin-top:1px;color:#CE9FFF; padding:0.4rem 0 0.4rem 0}
@@ -419,7 +419,7 @@ font-size:0.933rem; margin-top:0.5rem;}
 .vod-jq-info .vod-jq-title .more{float:right;font-family:"宋体";font-style:normal;font-size:1.2rem;}
 .vod-jq-info .vod-jq-title .more i{font-size:1.2rem;}
 .vod-jq-info .vod-info-content{clear:both;text-indent:2%;}
-.iNewIcon { background-image: url("../images/inew.png"); background-repeat: no-repeat; position: absolute; overflow: hidden; line-height: 0; font-size: 0; }
+.iNewIcon { background-image: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/mianbaowep/images/inew.png"); background-repeat: no-repeat; position: absolute; overflow: hidden; line-height: 0; font-size: 0; }
 /*剧情页面 */
 .story-pag{clear:both;overflow:hidden}
 #story-p{overflow:hidden}
@@ -475,7 +475,7 @@ font-size:0.933rem; margin-top:0.5rem;}
 .role_cont ul li{float:left;width:48%;}
 .role_cont ul li .role-img{ margin:auto;display:block;overflow:hidden;} 
 .role_cont ul li img{border:2px solid #fff;-webkit-transition:all 1s ease-in-out;-o-transition:all 1s ease-in-out;-ms-transition:all 1s ease-in-out;-moz-transition:all 1s ease-in-out}
-.role_cont ul li p .loading{background:url(../images/no.jpg) no-repeat scroll center center transparent}
+.role_cont ul li p .loading{background:url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/mianbaowep/images/no.jpg) no-repeat scroll center center transparent}
 .role_cont ul li p{text-align:center;}
 .role_cont ul li h2{text-align:center;overflow:hidden;font-weight:normal;}
 .role-txt{background:#F5F5F5;border:1px solid #C6C6C6;border-color:#fff;text-decoration:none;clear:both;}
@@ -502,7 +502,7 @@ font-size:0.933rem; margin-top:0.5rem;}
 .star-role li{ width:100%;background:#FFF;text-shadow:0 1px 0 rgba(255,255,255,0.6);position:relative;z-index:1;margin-bottom:15px;margin-top:15px;}
 .star-role li:hover{background:#E9E9E9;-webkit-transition:300ms;-moz-transition:300ms;-ms-transition:300ms;-o-transition:300ms;transition:300ms;text-decoration:none}
 .star-role a.star-role-img{float:left;display:block;overflow:hidden;position:relative;border:1px solid #fff;background:#FFF;overflow:hidden;position:absolute;z-index:22;top:-5px}
-.star-role a.star-role-img img{display:block;overflow:hidden;background:url(../images/lazyload.gif) no-repeat scroll center center transparent;-webkit-transition:all 1s ease-in-out;-o-transition:all 1s ease-in-out;-ms-transition:all 1s ease-in-out;-moz-transition:all 1s ease-in-out}
+.star-role a.star-role-img img{display:block;overflow:hidden;background:url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/mianbaowep/images/lazyload.gif) no-repeat scroll center center transparent;-webkit-transition:all 1s ease-in-out;-o-transition:all 1s ease-in-out;-ms-transition:all 1s ease-in-out;-moz-transition:all 1s ease-in-out}
 .star-role p{height:1.5rem;line-height:1.5rem;color:#fff;text-align:center;position:relative;margin-top:-1.5rem;background:rgba(0,0,0,0.7);filter:alpha(opacity=80);overflow:hidden;background:#000\9;bottom:0px;text-shadow:none;font-size:0.933rem}
 .star-role  p span{float:right;width:1.5rem;height:1.5rem;background:#9EB22F;}
 .role-c-txt{float:left;overflow:hidden}
@@ -561,7 +561,7 @@ font-size:0.933rem; margin-top:0.5rem;}
 .footer a{color:#666}
 /* 回顶部 */
 .index-top{ display:none;position: fixed;bottom: 40px;right:2px;width: 46px;z-index: 999;}
-.index-top a{display: block;width: 46px;height: 46px;margin-bottom: 10px;background-image: url(../images/go-top.png);-webkit-transition:none;-moz-transition:none;-ms-transition:none;transition:none}
+.index-top a{display: block;width: 46px;height: 46px;margin-bottom: 10px;background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/mianbaowep/images/go-top.png);-webkit-transition:none;-moz-transition:none;-ms-transition:none;transition:none}
 .index-top a:last-child{margin-bottom: 0;}
 .index-top .top{background-position: 0 -150px;cursor:pointer}
 .index-top .top:hover{background-position: 0 -250px;}
