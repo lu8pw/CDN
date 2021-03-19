@@ -1,43 +1,236 @@
-islogin=0;function checkcookie(){if(document.cookie.indexOf('auth=')>=0){islogin=1;return true;}
-return false;}
-checkcookie();$(function($){$.fn.changeList=function(options){var defaults={tag:'li',subName:'.utilTabSub',eventType:'click',num:3,showType:'show'},opts=$.extend({},defaults,options),that=$(this),subUl=that.find(opts.subName),subItems=subUl.find('li'),size=subItems.length,liW=subItems.outerWidth(true),ulW=liW*size,page=size+1,n=opts.num,randNum=0,m=0;if(size>n){that.find(opts.tag)[opts.eventType](function(){randNum=mathRand(n,size);subItems.hide();$.each(randNum,function(i,el){subItems.eq(el).fadeIn(800);});});}};}(jQuery));function mathRand(bit,max){var num=0,arr=[],ret=[];for(var i=0;i<bit;i++){num=Math.floor(Math.random()*max);if($.inArray(num,ret)==-1){ret.push(num);}else{i--;continue;}}
-return ret;}
-$(document).ready(function(){$('img.loading').lazyload({data_attribute:'original',threshold:5,effect:'fadeIn'});$(window).on('scroll',function(){var st=$(document).scrollTop();if(st>0){if($('#main-container').length!=0){var w=$(window).width(),mw=$('#main-container').width();if((w-mw)/2>70)
-$('#index-top').css({'left':(w-mw)/2+mw+20});else{$('#index-top').css({'left':'auto'});}}
-$('#index-top').fadeIn(function(){$(this).removeClass('wmin');});}else{$('#index-top').fadeOut(function(){$(this).addClass('wmin');});}});$('#index-top .top').on('click',function(){$('html,body').animate({'scrollTop':0},500);});var prevpage=$("#pre").attr("href");var nextpage=$("#next").attr("href");$("body").keydown(function(event){if(event.keyCode==37&&prevpage!=undefined)location=prevpage;if(event.keyCode==39&&nextpage!=undefined)location=nextpage;});$(".cancelInput").click(function(){$html=$(this).html();$(".searchPop").hide();$("html,body").css({"overflow-y":"auto"});});$(".top_channel_btn").click(function(){$(".top_channel_btn").toggleClass("aChannelShow");});if($("#story-p").length>0)
-{linheight=$("#story-p li a").length;gheight=linheight*3+10;if($("#story-p")[0].scrollHeight>120)
-{$(".story-pzk").css({'display':'block'});$("#story-p").height(gheight);$(".story-pzk").click(function(e){if($(this).hasClass('ss')){$(this).removeClass('ss').addClass('zk').html('展开');}else{$(this).removeClass('zk').addClass('ss').html('收缩');}
-if($("#story-p").height()>gheight)
-{var h=$("#story-p")[0].scrollHeight;$("#story-p").height(gheight);}
-else
-{var h=$("#story-p")[0].scrollHeight;$("#story-p").height(h);}
-e.preventDefault();});}}
-if($("#actorall").length>0)
-{if($("#actorall")[0].scrollHeight>210)
-{$("#downzk").css({'display':'block'});$("#actorall").height(185);$("#downzk").click(function(e){if($(this).hasClass('ss')){$(this).removeClass('ss').addClass('zk').html('展开全部角色<span>&#xe623;</span>');}else{$(this).removeClass('zk').addClass('ss').html('收起部分角色<span>&#xe625;</span>');}
-if($("#actorall").height()>185)
-{var h=$("#actorall")[0].scrollHeight;$("#actorall").height(185);}
-else
-{var h=$("#actorall")[0].scrollHeight;$("#actorall").height(h);}
-e.preventDefault();});}}
-if($("#rolemore").length>0)
-{if($("#rolemore")[0].scrollHeight>155)
-{$("#rolezk").css({'display':'block'});$("#rolemore").height(113);$("#rolezk").click(function(e){if($(this).hasClass('ss')){$(this).removeClass('ss').addClass('zk').html('展开全部角色<span>&#xe623;</span>');}else{$(this).removeClass('zk').addClass('ss').html('收起部分角色<span>&#xe625;</span>');}
-if($("#rolemore").height()>113)
-{var h=$("#rolemore")[0].scrollHeight;$("#rolemore").height(113);}
-else
-{var h=$("#rolemore")[0].scrollHeight;$("#rolemore").height(h);}
-e.preventDefault();});}}
-if($(".star-data,.special-txt").length>0)
-{if($(".star-data,.special-txt")[0].scrollHeight>130)
-{$("#star-infozk,#special-txt").css({'display':'block'});$(".star-data,.special-txt").height(105);$("#star-infozk,#special-txt").click(function(e){if($(this).hasClass('ss')){$(this).removeClass('ss').addClass('zk').html('展开更多资料<em>&#xe623;</em>');}else{$(this).removeClass('zk').addClass('ss').html('收起部分资料<em>&#xe625;</em>');}
-if($(".star-data,.special-txt").height()>105)
-{var h=$(".star-data,.special-txt")[0].scrollHeight;$(".star-data,.special-txt").height(105);}
-else
-{var h=$(".star-data,.special-txt")[0].scrollHeight;$(".star-data,.special-txt").height(h);}
-e.preventDefault();});}}
-$(".play-title a").each(function(j,div){$(this).click(function(){if($(this).parent().hasClass("current")){return;}
-$(this).parent().nextAll().removeClass("current");$(this).parent().prevAll().removeClass("current");$(this).parent().addClass("current")
-$('.play-box').hide();$('.play-box:eq('+j+')').show();});});$('.order a').click(function(){if($(this).hasClass('asc')){$(this).removeClass('asc').addClass('desc').html('<i class="iconfont">&#xe620;</i>降序');}else{$(this).removeClass('desc').addClass('asc').html('<i class="iconfont">&#xe61f;</i>升序');}
-var a=$('.play-box:eq('+$(this).attr('data')+') .plau-ul-list');var b=$('.play-box:eq('+$(this).attr('data')+') .plau-ul-list li');a.html(b.get().reverse());});});function setTab(name,cursel,n){for(i=1;i<=n;i++){var menu=document.getElementById(name+i);var con=document.getElementById("con_"+name+"_"+i);menu.className=i==cursel?"current":"";con.style.display=i==cursel?"block":"none";}}
-function weekTab(name,cursel,n){for(i=1;i<=n;i++){var menu=document.getElementById(name+i);var con=document.getElementById("week_"+name+"_"+i);menu.className=i==cursel?"current":"";con.className=i==cursel?"current":"";}}
+islogin=0;
+function checkcookie(){
+	if(document.cookie.indexOf('qr_u=')>=0){
+	islogin=1;
+	return true;
+	}
+	return false;
+}
+checkcookie();
+
+$(function(){
+	// drop-down
+	$(".drop-down").hover(function(){		
+		$(this).find(".drop-title").addClass("drop-title-hover");
+		$(this).find(".drop-box").show();
+	},function(){
+		$(this).find(".drop-title").removeClass("drop-title-hover");
+		$(this).find(".drop-box").hide();
+	});		
+});
+
+$(document).ready(function(){
+			
+	// ui-input
+	$(".ui-input").focus(function(){
+		$(this).addClass("ui-input-focus");
+	}).hover(function(){
+		$(this).addClass("ui-input-hover");
+	},function(){
+		$(this).removeClass("ui-input-hover");
+	});
+	$(".ui-input").blur(function(){
+		$(this).removeClass("ui-input-focus");
+	});			
+	
+	// ui-form-placeholder
+	$(".ui-form-placeholder").each(function(){
+		var _label = $(this).find(".ui-label");
+		var _input = $(this).find(".ui-input");
+		var _text =  $(this).find(".ui-input").val();
+		
+		if (_text != ""){
+			_label.hide();
+		}
+		
+		_label.css("z-index","3");
+		_label.click(function(){
+			$(this).hide();
+			_input.focus();
+		});	
+		_input.focus(function(){
+			_label.hide();
+		});	
+	});
+		
+	// ui-button
+	$(".ui-button").hover(function(){
+		$(this).addClass("ui-button-hover");
+	},function(){
+		$(this).removeClass("ui-button-hover");
+	});
+		
+	// close-his	
+	$(".close-his").click(function(){
+		$(this).parents(".drop-box").hide();
+	});
+	
+	// show-tipinfo
+	$(".show-tipinfo a").hover(function(){
+		$(this).parent().parent().find(".tipInfo").show();
+	},function(){		
+		$(this).parent().parent().find(".tipInfo").hide();
+	});	
+	
+	$("#wish").trigger('click');
+	
+	
+	
+	// timeinfo
+	$(".timeinfo").hover(function(){
+		$(this).addClass("timeinfo-active");
+	},function(){
+		$(this).removeClass("timeinfo-active");
+	});	
+	
+	// Date List Jquery
+	$(".date-list").each(function(){
+		$lis = $(this).find("li:last").index();		
+		if($lis > 5){
+			$(this).addClass("date-long");
+		}	
+	});
+	
+	
+});
+
+// Tab Menu JS Common
+function setTab(name,cursel,n){
+	for(i=1;i<=n;i++){
+		var menu=document.getElementById(name+i);
+		var con=document.getElementById("con_"+name+"_"+i);
+		menu.className=i==cursel?"current":"";
+		con.style.display=i==cursel?"block":"none";
+	}
+}
+function qrsearch(){
+	if($("#wd").val()=='请在此处输入影片片名或演员名称。'||$("#wd").val()==''){
+		$("#wd").val('');
+		$("#wd").focus();
+	}else{
+		document.location = MAC_PATH + 'index.php/vod/search.html?wd='+ encodeURIComponent($("#wd").val())+"";
+	}
+	return false;
+}
+
+function checkcookie(){
+	if(document.cookie.indexOf('baient_pro=')>=0){
+	islogin=1;
+	return true;
+	}
+	return false;
+}
+checkcookie();
+$(document).ready(function(){
+	// Baby Time Step A Tips
+	$(".play-mode-list a").each(function(j,div){
+			$(this).click(function(){
+		//$("html,body").animate({scrollTop:$("#"+listid).offset().top}, 500); //我要平滑
+		        if ($(this).parent().hasClass("current") ){
+				return;
+                }
+				var txt=$(this).attr("title").split('-');
+				$(".detail-pic .text").text(txt[1]);
+				var listid=$(this).attr("id")+'-list';
+				if(listid !='bdhd-pl-list' && listid!='qvod-pl-list'){
+					$('#'+listid+' .txt').text('( 无需安装任何插件，即可快速播放 )');
+				}
+				$(this).parent().nextAll().removeClass("current");
+				$(this).parent().prevAll().removeClass("current");
+				$(this).parent().addClass("current")
+				$('.play-list-box').hide().css("opacity",0);
+				
+				$('.play-list-box:eq('+j+')').show().animate({"opacity":"1"},1200);
+	});
+	});
+	//order
+	$('#detail-list .order a').click(function(){
+		if($(this).hasClass('asc')){
+			$(this).removeClass('asc').addClass('desc').text('降序');
+		}else{
+			$(this).removeClass('desc').addClass('asc').text('升序');
+		}
+		var a=$('.play-list-box:eq('+$(this).attr('data')+') .play-list');
+		var b=$('.play-list-box:eq('+$(this).attr('data')+') .play-list a');
+		a.html(b.get().reverse());
+	});
+
+	
+});
+ function intval(v)
+    {    
+    v = parseInt(v);    
+    return isNaN(v) ? 0 : v;
+    } 
+    // 获取元素信息
+    function getPos(e)
+    {    
+    var l = 0;    
+    var t  = 0;    
+    var w = intval(e.style.width);    
+    var h = intval(e.style.height);    
+    var wb = e.offsetWidth;    
+    var hb = e.offsetHeight;    
+    while (e.offsetParent)
+    {       
+     l += e.offsetLeft + (e.currentStyle?intval(e.currentStyle.borderLeftWidth):0);        
+     t += e.offsetTop  + (e.currentStyle?intval(e.currentStyle.borderTopWidth):0);        
+     e = e.offsetParent;    
+     }    
+     l += e.offsetLeft + (e.currentStyle?intval(e.currentStyle.borderLeftWidth):0);    
+     t  += e.offsetTop  + (e.currentStyle?intval(e.currentStyle.borderTopWidth):0);    
+     return {x:l, y:t, w:w, h:h, wb:wb, hb:hb}; } 
+     // 获取滚动条信息
+     function getScroll() 
+     {    
+     var t, l, w, h;         
+     if (document.documentElement && document.documentElement.scrollTop)
+     {        
+     t = document.documentElement.scrollTop;        
+     l = document.documentElement.scrollLeft;        
+     w = document.documentElement.scrollWidth;       
+     h = document.documentElement.scrollHeight;    
+     }
+     else if (document.body)
+     {        
+     t = document.body.scrollTop;        
+     l = document.body.scrollLeft;        
+     w = document.body.scrollWidth;        
+     h = document.body.scrollHeight;    
+     }    
+     return { t: t, l: l, w: w, h: h };
+     } 
+     // 锚点(Anchor)间平滑跳转
+     function scroller(el, duration)
+     {    
+     if(typeof el != 'object')
+     {
+     el = document.getElementById(el);
+     }     
+     if(!el) return;     
+     var z = this;    
+     z.el = el;    
+     z.p = getPos(el);    
+     z.s = getScroll();    
+     z.clear = function()
+     {
+     window.clearInterval(z.timer);z.timer=null
+     };    
+     z.t=(new Date).getTime();     
+     z.step = function()
+     {        
+     var t = (new Date).getTime();        
+     var p = (t - z.t) / duration;        
+     if (t >= duration + z.t)
+     {            
+     z.clear();            
+     window.setTimeout(function(){z.scroll(z.p.y, z.p.x)},13);         }
+     else {            
+     st = ((-Math.cos(p*Math.PI)/2) + 0.5) * (z.p.y-z.s.t) + z.s.t;            
+     sl = ((-Math.cos(p*Math.PI)/2) + 0.5) * (z.p.x-z.s.l) + z.s.l;            
+     z.scroll(st, sl);        
+     }    
+     };    
+     z.scroll = function (t, l){window.scrollTo(l, t)};    
+     z.timer = window.setInterval(function(){z.step();},13);
+     }
