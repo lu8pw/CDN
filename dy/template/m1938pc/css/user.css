@@ -55,7 +55,7 @@ span.new{
     background-repeat: no-repeat;
 }
 .ui-icon{
-    background-image: url(../images/user/ui-icon.gif?v2456);
+    background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/ui-icon.gif?v2456);
 }
 .new-tip{
     width: 33px;
@@ -64,13 +64,13 @@ span.new{
     left: 0;
     right: 0;
     z-index: 3;
-    background: url(../images/user/new-tip.gif) 0 0 no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/new-tip.gif) 0 0 no-repeat;
 }
 span.new{
     width: 22px;
     height: 12px;
     position: absolute;
-    background: url(../images/user/new.gif) 0 0 no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/new.gif) 0 0 no-repeat;
 }
 
 .layout{
@@ -121,7 +121,7 @@ span.new{
     overflow: hidden;
     cursor: pointer;
     border: 0;
-    background: url(../images/user/search.gif) center 5px no-repeat #fff;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/search.gif) center 5px no-repeat #fff;
 }
 
 
@@ -142,7 +142,7 @@ span.new{
     padding: 10px 10px 10px 40px;
     border: 1px solid #e6d8b9;
     position: relative;
-    background: url(../images/user/bulb.gif) 7px center no-repeat #feffe6;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/bulb.gif) 7px center no-repeat #feffe6;
     border-radius: 4px;
     zoom:1;
 }
@@ -194,7 +194,7 @@ span.new{
 }
 .img-list li p.time{
     text-indent: 18px;
-    background: url(../images/user/clock.gif) 0 4px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/clock.gif) 0 4px no-repeat;
 }
 
 /* play-img */
@@ -221,7 +221,7 @@ span.new{
     height: 150px;
     display: block;
     overflow: hidden;
-    background:url(../images/user/lazyload.gif) no-repeat scroll center center transparent;
+    background:url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/lazyload.gif) no-repeat scroll center center transparent;
 }
 .play-img .mask{
     width: 110px;
@@ -267,7 +267,7 @@ span.new{
     z-index: 3;
     font-weight: 700;
     -webkit-text-size-adjust:none;
-    background: url(../images/user/ui-icon.gif) 0 -155px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/ui-icon.gif) 0 -155px no-repeat;
 }
 
 /* txt-list */
@@ -354,7 +354,7 @@ span.new{
     padding: 5px 8px 0 23px;
     border-bottom: 1px solid #eee;
     border-right: 1px solid #eee;
-    background: url(../images/user/assist-icon.gif) 8px 8px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/assist-icon.gif) 8px 8px no-repeat;
 }
 
 /* footer */
@@ -453,14 +453,14 @@ span.new{
     text-indent: 10px;
     float: left;
     border: 1px solid #ddd;
-    background: url(../images/user/input.gif) 0 0 repeat-x;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/input.gif) 0 0 repeat-x;
     background-color: #fbfbfb;
 }
 .ui-input-hover{
     border-color: #ccc;
 }
 .ui-input-focus{
-    background-image: url(../images/user/input-focus.gif);
+    background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/input-focus.gif);
     border-color: #259e33;
     background-color: #fff;
 }
@@ -545,29 +545,29 @@ span.new{
     background: none;
 }
 .onShow{
-    background-image: url( ../images/user/onShow.gif);
+    background-image: url( https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/onShow.gif);
     background-position: 9px 9px;
 }
 .onFocus{
     color: #26c;
     border-color: #cdd9f5;
-    background-image: url( ../images/user/onFocus.gif);
+    background-image: url( https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/onFocus.gif);
     background-color:#e9f7ff;
 }
 .onError{
     color: #c00;
     border-color: #f3dbcb;
-    background-image: url( ../images/user/onError.gif);
+    background-image: url( https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/onError.gif);
     background-color:#FFF2E9;
 }
 .onCorrect{
     color: #080;
     border-color: #cdefd0;
-    background-image: url( ../images/user/onCorrect.gif);
+    background-image: url( https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/onCorrect.gif);
     background-color:#E9FFEB;
 }
 .onLoad{
-    background-image: url( ../images/user/onLoad.gif);
+    background-image: url( https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/onLoad.gif);
     background-position: 6px 7px;
 }
 
@@ -784,7 +784,7 @@ span.new{
     width: 998px;
     overflow: hidden;
     border-top-width: 0;
-    background: url(../images/user/i-bg.gif) 1px 0 repeat-y #fff;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/i-bg.gif) 1px 0 repeat-y #fff;
     border-radius: 2px 2px 0 0;
 }
 
@@ -839,7 +839,7 @@ span.new{
 @-moz-document url-prefix(){.user-nav-list li a{line-height: 21px;}}
 .user-nav-list li a:hover{
     text-decoration: none;
-    background: url(../images/user/iu.png) -400px -67px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/iu.png) -400px -67px no-repeat;
 }
 
 .user-nav-list li.current{
@@ -850,7 +850,7 @@ span.new{
 .user-nav-list li.current a:hover{
     color: #e12160;
     font-weight: bold;
-    background: url(../images/user/iu.png) -556px -67px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/iu.png) -556px -67px no-repeat;
 }
 .user-nav-list li img{
     margin: 3px 0 0 3px;
@@ -864,7 +864,7 @@ span.new{
     overflow: hidden;
     float: left;
     margin: 0 9px 0 0;
-    background: url(../images/user/ic.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/ic.png) no-repeat;
 }
 .user-nav-list li .zl-icon{ background-position: 0 0;}
 .user-nav-list li .sc-icon{ background-position: 0 -24px;}
@@ -1037,7 +1037,7 @@ span.new{
     cursor: pointer;
     border: 0;
     float: right;
-    background: url(../images/user/send.png) 0 0 no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/send.png) 0 0 no-repeat;
 }
 
 /* i-indexcnt */
@@ -1079,7 +1079,7 @@ span.new{
     position: relative;
     font-weight: 700;
     color: #e12160;
-    background: url(../images/user/i-news-tab.gif) center 40px no-repeat ;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/i-news-tab.gif) center 40px no-repeat ;
 }
 .i-tab-nav li.current a{ color: #e12160;}
 .i-tab-nav li a{display: block; width:100%;height:100%;}
@@ -1180,7 +1180,7 @@ body .user-txt-list li.loading,
     text-align: center;
     line-height: 40px;
     border-bottom: 1px solid #ddd;
-    background: url(../images/user/ui-dialog-title.gif) 0 0 repeat-x;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/ui-dialog-title.gif) 0 0 repeat-x;
 }
 .moreurl img{
     display: block;
@@ -1199,7 +1199,7 @@ body .user-txt-list li.loading,
     line-height: 35px;
     font-size: 12px;
     padding: 0 5px 0 18px;
-    background: url(../images/user/s1.gif) 10px 16px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/s1.gif) 10px 16px no-repeat;
 }
 .his-list li.hover{ background-color: #fcfcfc;}
 .his-list li.active{background-color: #fcfcfc;}
@@ -1297,10 +1297,10 @@ body .user-txt-list li.loading,
     height: 16px;
     line-height: 15px;
     padding-left: 20px;
-    background: url(../images/user/checkbox.gif) 0 0 no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/checkbox.gif) 0 0 no-repeat;
 }
 .ui-radio{
-    background-image: url(../images/user/radio.gif) ;
+    background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/radio.gif) ;
 }
 .label-checkbox-on,
 .ui-radio-on{
@@ -1341,15 +1341,15 @@ body .user-txt-list li.loading,
 @-moz-document url-prefix(){.ui-edit{line-height: 20px;}}
 
 .savelove{
-    background-image: url(../images/user/fav.gif);
+    background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/fav.gif);
     background-position: 30px 5px;
 }
 .saveremind{
-    background-image: url(../images/user/remind.gif);
+    background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/remind.gif);
     background-position: 30px 5px;
 }
 .cleanup{
-    background-image: url(../images/user/trash.gif);
+    background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/trash.gif);
     background-position: 8px 5px;
 }
 .ui-edit:hover{
@@ -1364,7 +1364,7 @@ body .user-txt-list li.loading,
 .ui-edit-short:hover{
     background-position: 8px -25px;
 }
-.ui-edit span.set{background-image: url(../images/user/set.gif);}
+.ui-edit span.set{background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/set.gif);}
 
 
 .fav-pic-page{float: right;width: auto;overflow: hidden;}
@@ -1378,7 +1378,7 @@ body .user-txt-list li.loading,
     overflow: hidden;
     text-indent: -999px;
     margin: -1px -1px 0 0;
-    background: url(../images/user/i-button.gif) 0 0 no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/user/i-button.gif) 0 0 no-repeat;
 }
 .i-button:hover{
     background-position: 0 -26px;

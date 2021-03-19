@@ -41,9 +41,9 @@ a {
 	width: 100%;
 	height: 100px;
 	overflow: hidden;
-	background: url(../images/mask_txtBg_100.png) 0 bottom repeat-x;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/mask_txtBg_100.png) 0 bottom repeat-x;
 	_background: none;
-_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/mask_txtBgIe6_100.png');
+_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/mask_txtBgIe6_100.png');
 	_bottom: -1px
 }
 .datll_com .picList .txt .sTit {
@@ -225,7 +225,7 @@ _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/mask_t
 	display: block
 }
 .globalPicTxt .pic .pIntro {
-	background: url(../images/titPngBg.png) 0 0 repeat;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/titPngBg.png) 0 0 repeat;
 	_background: none;
 _filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000, endColorstr=#7F000000);
 	height: 20px;
@@ -247,9 +247,9 @@ _filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000, endC
 	width: 100%;
 	height: 50px;
 	overflow: hidden;
-	background: url(../images/mask_txtBg_50.png) 0 bottom repeat-x;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/mask_txtBg_50.png) 0 bottom repeat-x;
 	_background: none;
-_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/mask_txtBgIe6_50.png');
+_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/mask_txtBgIe6_50.png');
 	_bottom: -1px;
 	z-index: 5;
 	color: #fff
@@ -269,15 +269,15 @@ _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/mask_t
 	width: 100%;
 	height: 100px;
 	overflow: hidden;
-	background: url(../images/mask_txtBg_100.png) 0 bottom repeat-x;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/mask_txtBg_100.png) 0 bottom repeat-x;
 	_background: none;
-_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/mask_txtBgIe6_100.png');
+_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/mask_txtBgIe6_100.png');
 	_bottom: -1px;
 	z-index: 5;
 	color: #fff
 }
 .globalPicTxt .pic .pRightBottom {
-	background: url(../images/titPngBg.png) 0 0 repeat;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/titPngBg.png) 0 0 repeat;
 	_background: none;
 _filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000, endColorstr=#7F000000);
 	height: 18px;
@@ -294,7 +294,7 @@ _filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000, endC
 	font-size: 12px
 }
 .globalPicTxt .pic .pRightTop {
-	background: url(../images/titPngBg.png) 0 0 repeat;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/titPngBg.png) 0 0 repeat;
 	_background: none;
 _filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000, endColorstr=#7F000000);
 	height: 20px;
@@ -341,7 +341,7 @@ _filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000, endC
 	color: #f30
 }
 .globalPicTxt .sDes .emName {
-	background: url(../images/liveMap.v2.png) -89px -185px no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/liveMap.v2.png) -89px -185px no-repeat;
 	float: left;
 	padding-left: 15px;
 	width: 70px;
@@ -501,7 +501,7 @@ _filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000, endC
     zoom: 1;
 }
 .pic {
-    background: #f5f5f5 url(../images/noPicDefaultTit_m.png) center center no-repeat;
+    background: #f5f5f5 url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/noPicDefaultTit_m.png) center center no-repeat;
 }
 .v_picTxt .pic img {
     vertical-align: top;
@@ -514,7 +514,7 @@ img {
     vertical-align: middle;
 }
 .v_picTxt .pic .pRightBottom {
-    background: url(../images/titPngBg.png) 0 0 repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/titPngBg.png) 0 0 repeat;
     _background: none;
     _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
     height: 20px;
@@ -532,7 +532,7 @@ img {
 }
 
 a.aPlayBtn, a.aPlayBtn_m, a.aPlayBtn_s {
-    background: url(../images/fillBg.png) 0 0 repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/fillBg.png) 0 0 repeat;
     position: absolute;
     top: 0;
     left: 0;

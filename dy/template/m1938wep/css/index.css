@@ -42,7 +42,7 @@
 .picTxt .con .sNum {
     width: 100%;
     display: block;
-    background-image: url(../images/snumbg.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/snumbg.png);
     background-repeat: repeat-x;
     background-position: 0 bottom;
     overflow: hidden;
@@ -342,12 +342,12 @@
     bottom: 0;
     width: 100%;
     color: #fff;
-    background-image: url(../images/snumbg.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/snumbg.png);
     background-repeat: repeat-x;
     background-position: 0 bottom
 }
 .focus .focusCon li .sTit em {
-    background-image: url(../images/slideplay.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/slideplay.png);
     background-repeat: no-repeat;
     background-position: 0 center;
     margin-left: 2%;

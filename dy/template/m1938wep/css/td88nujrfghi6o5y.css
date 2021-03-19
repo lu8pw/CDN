@@ -11,7 +11,7 @@
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-	background: url("../images/fenxiang2.jpg") #FFF no-repeat;
+	background: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/fenxiang2.jpg") #FFF no-repeat;
 	box-shadow: 0 2px 9px rgba(142,102,253,.05);
 	cursor: pointer;
 	display: none;
@@ -20,5 +20,5 @@
 .widget-weixin .codeimg {
 	width: 100px;
 	height: 100px;
-	background: url("../images/codeimg6.png") #FFF no-repeat;
+	background: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/codeimg6.png") #FFF no-repeat;
 }

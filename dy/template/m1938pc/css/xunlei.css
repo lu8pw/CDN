@@ -107,7 +107,7 @@
     padding:15px 0px;
 }
 .bt-name {
-    background: #fff url('../images/torrent.gif') no-repeat;
+    background: #fff url('https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/torrent.gif') no-repeat;
     height:32px;
     width:100%;
     text-indent:35px;
@@ -119,7 +119,7 @@
     font-style:normal;
 }
 .bt-tree {
-    background: #fff url('../images/treeview-default-line.gif') no-repeat;
+    background: #fff url('https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/treeview-default-line.gif') no-repeat;
     padding:3px 0px 3px 16px;
     height:20px;
     line-height:20px;
@@ -139,12 +139,12 @@
     background-position: 0 -1766px;
 }
 .bt-mv {
-    background: #fff url('../images/m-file.gif') no-repeat;
+    background: #fff url('https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/m-file.gif') no-repeat;
     padding-left:18px;
     display:block;
 }
 .bt-txt {
-    background: #fff url('../images/t-file.gif') no-repeat;
+    background: #fff url('https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/t-file.gif') no-repeat;
     padding-left:18px;
     display:block;
 }

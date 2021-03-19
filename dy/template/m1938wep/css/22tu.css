@@ -55,7 +55,7 @@ a:hover {
 }
 
 body {
-    background: #f7f7f7 url(../images/mbg.jpg);
+    background: #f7f7f7 url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/mbg.jpg);
     color: #232426;
     font-size: 12px;
     font-family: '微软雅黑', 'Microsoft Yahei', Tahoma, Verdana
@@ -132,13 +132,13 @@ img {
     margin: 15px -17px 0 10px;
     width: 140px;
     height: 25px;
-    background: url(../images/howtouse.png) no-repeat -6px -9px;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/howtouse.png) no-repeat -6px -9px;
     text-align: center;
     line-height: 25px
 }
 
 .fr1 a:hover {
-    background: url(../images/howtouse.png) no-repeat 0 -9px;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/howtouse.png) no-repeat 0 -9px;
     text-decoration: none
 }
 
@@ -154,13 +154,13 @@ img {
     margin: 5px -17px 0 10px;
     width: 140px;
     height: 25px;
-    background: url(../images/howtouse.png) no-repeat -6px -80px;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/howtouse.png) no-repeat -6px -80px;
     text-align: center;
     line-height: 25px
 }
 
 .fr2 a:hover {
-    background: url(../images/howtouse.png) no-repeat 0 -80px;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/howtouse.png) no-repeat 0 -80px;
     text-decoration: none
 }
 
@@ -195,7 +195,7 @@ img {
 #header {
     height: 230px;
     border-bottom: 1px solid #f3f3f3;
-    background: #fff url(../images/menu.png) repeat-x 100% 34px
+    background: #fff url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/menu.png) repeat-x 100% 34px
 }
 
 .top {
@@ -219,7 +219,7 @@ img {
 
 .history a.gk,
 .history a.gk:visited {
-    background: url(../images/i.png) no-repeat
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/i.png) no-repeat
 }
 
 .logo {
@@ -277,7 +277,7 @@ img {
     padding: 0;
     height: 38px;
     border: 0;
-    background: url(../images/serbtn.png) repeat-x;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/serbtn.png) repeat-x;
     color: #fff;
     font-weight: bold;
     font-size: 14px;
@@ -352,15 +352,15 @@ img {
 }
 
 .Gold .all {
-    background: url(../images/star_vote.gif) repeat
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/star_vote.gif) repeat
 }
 
 .Gold .half {
-    background: url(../images/star_vote.gif) 20px 0 repeat
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/star_vote.gif) 20px 0 repeat
 }
 
 .Gold .none {
-    background: url(../images/star_vote.gif) 41px 0 repeat
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/star_vote.gif) 41px 0 repeat
 }
 
 .Golder {
@@ -374,7 +374,7 @@ img {
 
 .Comment .form textarea {
     background: #fff;
-    background: url(../images/bg_comment.gif) right bottom no-repeat
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/bg_comment.gif) right bottom no-repeat
 }
 
 .Comment #comment_tips {
@@ -383,12 +383,12 @@ img {
 
 a.Up {
     padding-left: 16px;
-    background: url(../images/up_down.gif) no-repeat 0 -4px
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/up_down.gif) no-repeat 0 -4px
 }
 
 a.Down {
     padding-left: 16px;
-    background: url(../images/up_down.gif) no-repeat 0 -24px
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/up_down.gif) no-repeat 0 -24px
 }
 
 .history_box {
@@ -436,7 +436,7 @@ a.Down {
 }
 
 .lazy {
-    background: url(../images/loading.gif) center no-repeat
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/loading.gif) center no-repeat
 }
 
 .drop-box {
@@ -690,7 +690,7 @@ a.Down {
     height: 175px;
     display: block;
     overflow: hidden;
-    background: url(../images/lazyload.gif) no-repeat scroll center center transparent
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/lazyload.gif) no-repeat scroll center center transparent
 }
 
 .play-img i,
@@ -717,7 +717,7 @@ a.Down {
     z-index: 2;
     color: #fff;
     white-space: nowrap;
-    background: url(../images/play-img.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/play-img.png) no-repeat;
     _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/play-img.png');
     _background-image: none
 }
@@ -796,7 +796,7 @@ i {
 }
 
 .box .content .title {
-    background: url(../images/wzbg.png) repeat-x
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/wzbg.png) repeat-x
 }
 
 .box .content .title dl {
@@ -1075,7 +1075,7 @@ i {
     z-index: 2;
     color: #fff;
     white-space: nowrap;
-    background: url(../images/play-img.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/play-img.png) no-repeat;
     _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/play-img.png');
     _background-image: none
 }
@@ -1137,7 +1137,7 @@ i {
     height: 41px;
     text-align: right;
     padding: 3px 3px 0 0;
-    background: url(../images/score_sp.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/score_sp.png) no-repeat;
     position: absolute;
     top: 2px;
     right: 2px;
@@ -1232,7 +1232,7 @@ i {
     display: block;
     padding-top: 2px;
     height: 21px;
-    background: url(../images/mlistp.gif) no-repeat 0 2px
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/mlistp.gif) no-repeat 0 2px
 }
 
 .mlist .info span a,
@@ -1424,7 +1424,7 @@ i {
     line-height: 36px;
     color: #424451;
     padding: 0 14px;
-    background: url(../images/line.gif) repeat-x 0 100%;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/line.gif) repeat-x 0 100%;
     font-size: 14px
 }
 
@@ -1464,7 +1464,7 @@ i {
 .hotbox li {
     height: 30px;
     line-height: 30px;
-    background: url(../images/line.gif) repeat-x 0 100%;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/line.gif) repeat-x 0 100%;
     padding: 0 0 0 14px
 }
 
@@ -1574,7 +1574,7 @@ i {
 .wz {
     height: 38px;
     line-height: 38px;
-    background: url(../images/wzbg.png) repeat-x;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/wzbg.png) repeat-x;
     padding: 0 10px;
     color: #8e8e8e
 }
@@ -1699,7 +1699,7 @@ i {
 
 .mox .title p {
     float: right;
-    background: url(../images/g.gif) no-repeat 0 -74px;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/g.gif) no-repeat 0 -74px;
     padding-left: 12px;
     color: #f00c0c
 }
@@ -1744,7 +1744,7 @@ i {
     margin: 5px 0 0 15px;
     line-height: 33px;
     padding-left: 25px;
-    background: url(../images/g.gif) no-repeat 5px -120px;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/g.gif) no-repeat 5px -120px;
     border: 1px solid #ededed
 }
 
@@ -2028,7 +2028,7 @@ i {
 
 #moquu_top {
     top: 456px;
-    background: url(../images/sbtn.png) 0 -101px;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/sbtn.png) 0 -101px;
     width: 50px;
     height: 50px
 }
@@ -2044,7 +2044,7 @@ i {
     position: absolute;
     top: 20px;
     right: 20px;
-    background: url(../images/score-scale.gif) 0 bottom no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/score-scale.gif) 0 bottom no-repeat;
     display: none
 }
 
@@ -2067,7 +2067,7 @@ i {
     padding: 10px 20px;
     color: #666;
     font-size: 12px;
-    background: url(../images/lazyload.gif) left center no-repeat
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/lazyload.gif) left center no-repeat
 }
 
 .rating-kong-item .nopingfen {
@@ -2100,7 +2100,7 @@ i {
     margin-right: -13px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background: url(../images/rating-total.png) 0 0 no-repeat
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/rating-total.png) 0 0 no-repeat
 }
 
 .pingfen-total strong {
@@ -2123,14 +2123,14 @@ i {
     overflow: hidden;
     margin-left: 2px;
     position: relative;
-    background: url(../images/score-bg.gif) 0 0 no-repeat
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/score-bg.gif) 0 0 no-repeat
 }
 
 .rating-bar-item {
     height: 18px;
     overflow: hidden;
     border: 1px solid #75b442;
-    background: url(../images/score-bg.gif) 0 -20px no-repeat
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/score-bg.gif) 0 -20px no-repeat
 }
 
 .rating-box .rating-show {
@@ -2163,7 +2163,7 @@ i {
     float: left;
     margin-top: 1px;
     margin-right: 5px;
-    background: url(../images/star-min.gif) no-repeat
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/star-min.gif) no-repeat
 }
 
 .rating-box .rating-show .star5 {
@@ -2260,10 +2260,10 @@ i {
     width: 24px;
     height: 24px;
     text-indent: -99px;
-    background: url(../images/rating.png) 0 0 no-repeat
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/rating.png) 0 0 no-repeat
 }
 
 #rating .rating li.active,
 #rating .rating li.hover {
-    background: url(../images/rating.png) 0 -24px no-repeat
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/rating.png) 0 -24px no-repeat
 }

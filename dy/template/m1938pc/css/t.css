@@ -294,7 +294,7 @@
     height: 122px;
     display: block;
     overflow: hidden;
-    background: url(../images/lazyload.gif) no-repeat scroll center center transparent;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/lazyload.gif) no-repeat scroll center center transparent;
 }
 
 .play-img i,
@@ -313,7 +313,7 @@
 .play-img:hover i {
     width: 40px;
     height: 40px;
-    background: url(../images/ico_vh.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/ico_vh.png) no-repeat;
     left: 25px;
     top: 36px;
     _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/ico_vh.png');
@@ -332,8 +332,8 @@
     z-index: 2;
     color: #fff;
     white-space: nowrap;
-    background: url(../images/play-img.png) no-repeat;
-    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/play-img.png');
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/play-img.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/play-img.png');
     _ background-image: none;
 }
 
@@ -350,7 +350,7 @@ i {
 }
 
 .line {
-    background: url(../images/line.gif) repeat-x 0 100%
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/line.gif) repeat-x 0 100%
 }
 
 /* 棣栭〉 */
@@ -423,7 +423,7 @@ i {
 }
 
 .box .content .title {
-    background: url(../images/wzbg.png) repeat-x;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/wzbg.png) repeat-x;
 }
 
 .box .content .title dl {
@@ -688,7 +688,7 @@ i {
     z-index: 2;
     color: #fff;
     white-space: nowrap;
-    background: url(../images/play-img.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/play-img.png) no-repeat;
     _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/play-img.png');
     _ background-image: none;
 }
@@ -751,7 +751,7 @@ i {
     height: 41px;
     text-align: right;
     padding: 3px 3px 0 0;
-    background: url(../images/score_sp.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/score_sp.png) no-repeat;
     position: absolute;
     top: 2px;
     right: 2px;
@@ -779,7 +779,7 @@ i {
     height: 16px;
     overflow: hidden;
     width: 220px;
-    background: url(../images/starr.gif) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/starr.gif) no-repeat;
     display: block;
     margin-bottom: 3px
 }
@@ -834,7 +834,7 @@ i {
     display: block;
     padding-top: 2px;
     height: 21px;
-    background: url(../images/mlistp.gif) no-repeat 0 2px
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/mlistp.gif) no-repeat 0 2px
 }
 
 .mlist .info span a,
@@ -942,7 +942,7 @@ i {
     ;
     padding: 0 14px 0;
     color: #0AA8E7;
-    background: url(../images/g.gif) no-repeat 42px -210px;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938pc/images/g.gif) no-repeat 42px -210px;
 }
 
 .filter li a.more:hover {

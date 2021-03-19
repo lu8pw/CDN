@@ -12,7 +12,7 @@
 .ulPicTxt li .pic a:visited{color:#fff}
 .ulPicTxt li .pic a img{float:left}
 .ulPicTxt li .pic a .sStyle{background:rgba(0,0,0,.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000, endColorstr=#7F000000);position:absolute;top:0;left:0;color:#fff}
-.ulPicTxt li .pic a .sDes{display:block;width:100%;text-align:center;color:#fff;overflow:hidden;position:absolute;bottom:0;left:0;background-image:url(../fonts/c31f1610aed54167bdc1a9053643692b.woff);background-position:0 0;background-repeat:no-repeat;background-color:#1681dc}
+.ulPicTxt li .pic a .sDes{display:block;width:100%;text-align:center;color:#fff;overflow:hidden;position:absolute;bottom:0;left:0;background-image:url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/fonts/c31f1610aed54167bdc1a9053643692b.woff);background-position:0 0;background-repeat:no-repeat;background-color:#1681dc}
 .ulPicTxt li .txt .aPlayBtn.comingBtn{background-color:#4fbe1f;border-color:#3e9f03}
 .ulPicTxt li .txt .aPlayBtn.noPlayBtn{background-color:#c7c7cb;border-color:#c7c7cb;background-image:none}
 .ulPicTxt li .txt .playList{width:100%}
@@ -21,7 +21,7 @@
 .ulPicTxt li .txt .playList.playListTwo span{width:49%;float:left;padding-left:0}
 .ulPicTxt li .txt .playList.playListTwo span:nth-child(2n){float:right}
 .ulPicTxt li:nth-child(1){border-top:0 none}
-i.iLoading{background:url(../images/loading.gif) center center no-repeat}
+i.iLoading{background:url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/m1938wep/images/loading.gif) center center no-repeat}
 .sLoading{display:block;text-align:center;color:#333}
 .sLoading i.iLoading{display:inline-block;vertical-align:middle}
 .pNoResoult{text-align:center;color:#333}
