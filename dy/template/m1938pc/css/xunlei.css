@@ -1,0 +1,150 @@
+/*down*/
+.down-item{
+    display:block;
+    width:100%;
+    height:40px;
+    line-height:40px;
+    overflow:hidden;
+    border-bottom: 1px solid #EEEEEE;
+    position:relative;
+}
+.down-title {
+    margin-left:5px;
+}
+.down-title a{
+    color:#BC2931;
+}
+.down-title i{
+    font-style:normal;
+    color:#006633;
+    margin-right:3px;
+    font-weight:bold;
+}
+.dim-item{
+    line-height:20px;
+    float:left;
+    max-width:720px;
+}
+.dim-item em{
+    display:block;
+    color:#006633;
+}
+.down-sel{
+    float:left;
+    width:20px;
+    height:40px;
+    line-height:40px;
+}
+.down-sel input{
+    margin-top:13px;
+}
+.down-memu {
+    position:absolute;
+    top:8px;
+    height:24px;
+    right:10px;
+    line-height:24px;
+    background:#fff;
+    z-index:1000;
+}
+.down-memu span{
+    float:left;
+    display:block;
+    padding:0px 5px;
+    margin-left:3px;
+    text-align:center;
+}
+.down-memu span a{
+    font-size:14;
+    color:#fff;
+}
+.dim-more{
+    padding-right:0px;
+}
+.dim-show {
+    background:#006633;
+    color:#fff;
+    padding:0 10px;
+    height:25px;
+    line-height:25px;
+    cursor:pointer;
+    position:absolute;
+    top:5px;
+    right:10px;
+}
+.xl{
+    background:#CC0066;
+    color:#fff;
+}
+.kk{
+    background:#36C345;
+    color:#fff;
+}
+.xf{
+    background:#FF6C00;
+    color:#fff;
+}
+.lx{
+    background:#4C9493;
+    color:#fff;
+}
+.xm{
+    background:#656565;
+    color:#fff;
+}
+.down-all{
+    display:inline-block;
+    margin-left:10px;
+    background:#F2F3F2;
+    border: 1px solid #D2D1D1;
+    border-radius:5px;
+    height:24px;
+    line-height:24px;
+    padding:0 20px;
+}
+
+.bt-item {
+    padding:15px 0px;
+}
+.bt-name {
+    background: #fff url('../images/torrent.gif') no-repeat;
+    height:32px;
+    width:100%;
+    text-indent:35px;
+    line-height:32px;
+    font-size:16px;
+}
+.bt-name i{
+    color:red;
+    font-style:normal;
+}
+.bt-tree {
+    background: #fff url('../images/treeview-default-line.gif') no-repeat;
+    padding:3px 0px 3px 16px;
+    height:20px;
+    line-height:20px;
+    margin-left:10px;
+    font-size:12px;
+    color:#777;
+}
+.bt-name a{
+    font-size:16px;
+}
+.bt-tree i,.bt-tree a{
+    color:#999;
+    font-style:normal;
+    font-size:11px;
+}
+.bt-tree:last-child{
+    background-position: 0 -1766px;
+}
+.bt-mv {
+    background: #fff url('../images/m-file.gif') no-repeat;
+    padding-left:18px;
+    display:block;
+}
+.bt-txt {
+    background: #fff url('../images/t-file.gif') no-repeat;
+    padding-left:18px;
+    display:block;
+}
