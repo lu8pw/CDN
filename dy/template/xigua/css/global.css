@@ -88,19 +88,19 @@
 }
 
 .header1 .headRight a.aSearch {
-	background-image: url("../images/search1.png");
+	background-image: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/search1.png");
 }
 
 .header1 .headRight a.aRank {
-	background-image: url("../images/top.png");
+	background-image: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/top.png");
 }
 
 .header1 .headRight a.aNav {
-	background-image: url("../images/anav.png");
+	background-image: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/anav.png");
 }
 
 .header1 .headRight a.aUnLogin {
-	background-image: url("../images/user.png");
+	background-image: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/user.png");
 }
 
 .header1 .headRight a.aUnLogin.aLogined {
@@ -113,7 +113,7 @@
 }
 
 .header1 .headRight a.aHome {
-	background-image: url("../images/home.png");
+	background-image: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/home.png");
 }
 
 .header1 .headRight a.cur {
@@ -267,7 +267,7 @@
 .pSearchForm .searchBtn {
 	background-color: #3093e5;
 	border: 1px solid #3093e5;
-	background-image: url("../images/search2.png");
+	background-image: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/search2.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	position: absolute;
@@ -418,7 +418,7 @@
 }
 
 i.iLoading {
-	background: url("../images/loading.gif") center center no-repeat;
+	background: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/loading.gif") center center no-repeat;
 }
 
 .sLoading {
@@ -2543,7 +2543,7 @@ i.iLoading {
 	top: 50%;
 	left: 5px;
 	margin-top: -32px;
-	background: url(../images/controls.png) no-repeat top left;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/controls.png) no-repeat top left;
 	width: 28px;
 	height: 65px;
 	text-indent: -9999px;
@@ -2558,7 +2558,7 @@ i.iLoading {
 	top: 50%;
 	right: 5px;
 	margin-top: -32px;
-	background: url(../images/controls.png) no-repeat top right;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/controls.png) no-repeat top right;
 	width: 28px;
 	height: 65px;
 	text-indent: -9999px;
@@ -2573,11 +2573,11 @@ i.iLoading {
 }
 
 #cboxLoadingGraphic {
-	background: url(..images/loading.gif) no-repeat center center;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xiguaimages/loading.gif) no-repeat center center;
 }
 
 #colorbox {
-	background: url(../images/transparent.png);
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/transparent.png);
 	_background: #ccc;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -2614,7 +2614,7 @@ i.iLoading {
 	overflow: hidden;
 	text-indent: -999px;
 	cursor: pointer;
-	background: url(../images/close.png) 0 0 no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/close.png) 0 0 no-repeat;
 	opacity: .9;
 }
 
@@ -2628,7 +2628,7 @@ i.iLoading {
 	*overflow: hidden;
 	*text-indent: -9999px;
 	*cursor: pointer;
-	*background: url(../images/close.gif) 2px 2px no-repeat;
+	*background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/close.gif) 2px 2px no-repeat;
 	*opacity: 0.3;
 	*background-color: #fff;
 }
@@ -2663,7 +2663,7 @@ i.iLoading {
 	_position: absolute;
 	_top: expression(documentElement.scrollTop);
 	_margin-top: 300px;
-	background: url(../images/transparent.png);
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/transparent.png);
 	_background: #ccc;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -2697,7 +2697,7 @@ i.iLoading {
 	*line-height: 35px;
 	padding: 0 50px 0 15px;
 	border-bottom: 1px solid #e4e8ea;
-	background: url(../images/ui-dialog-title.gif) 0 0 repeat-x #f7f9fa;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/ui-dialog-title.gif) 0 0 repeat-x #f7f9fa;
 }
 
 .ui-dialog-title h5 {
@@ -2723,28 +2723,28 @@ i.iLoading {
 }
 
 .ui-dialog-tip.loading {
-	background-image: url(../images/loading.gif);
+	background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/loading.gif);
 	background-position: 3px 6px;
 }
 
 .ui-dialog-tip.alert {
-	background-image: url(../images/icons/alert.png);
-	_background-image: url(../images/icons/alert.gif);
+	background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/icons/alert.png);
+	_background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/icons/alert.gif);
 }
 
 .ui-dialog-tip.succ {
-	background-image: url(../images/icons/succ.png);
-	_background-image: url(../images/icons/succ.gif);
+	background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/icons/succ.png);
+	_background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/icons/succ.gif);
 }
 
 .ui-dialog-tip.error {
-	background-image: url(../images/icons/error.png);
-	_background-image: url(../images/icons/error.gif);
+	background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/icons/error.png);
+	_background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/icons/error.gif);
 }
 
 .ui-dialog-tip.cross {
-	background-image: url(../images/icons/cross.png);
-	_background-image: url(../images/icons/cross.gif);
+	background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/icons/cross.png);
+	_background-image: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/icons/cross.gif);
 }
 
 .ui-dialog-todo {
@@ -2786,7 +2786,7 @@ i.iLoading {
 	overflow: hidden;
 	text-indent: -999px;
 	cursor: pointer;
-	background: url(../images/close.gif) 0 0 no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/close.gif) 0 0 no-repeat;
 	opacity: .3;
 }
 
@@ -2921,7 +2921,7 @@ i.iLoading {
 	overflow: hidden;
 	text-indent: -999px;
 	cursor: pointer;
-	background: url(../images/selected.gif) 0 0 no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/selected.gif) 0 0 no-repeat;
 	display: none;
 	position: absolute;
 	right: 0;
@@ -3051,7 +3051,7 @@ i.iLoading {
 .pag_bar .pagem {
 	padding-left: 20px;
 	padding-right: 15px;
-	background: url(../images/icon.png) no-repeat -12px -2969px;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/icon.png) no-repeat -12px -2969px;
 	float: right;
 	_display: inline;
 }
@@ -3064,21 +3064,21 @@ i.iLoading {
 
 .pag_bar .next {
 	padding-right: 10px;
-	background: url(../images/icon.png) 32px -2929px no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/icon.png) 32px -2929px no-repeat;
 	float: left;
 	_display: inline;
 }
 
 .pag_bar .prev {
 	padding-left: 10px;
-	background: url(../images/icon.png) -10px -2903px no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/icon.png) -10px -2903px no-repeat;
 	float: left;
 	_display: inline;
 	margin-right: 8px;
 }
 
 .pag_bar .toTop_w {
-	background: url(../images/icon.png) no-repeat -12px -2969px;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/icon.png) no-repeat -12px -2969px;
 	float: right;
 	_display: inline;
 }
@@ -3087,7 +3087,7 @@ i.iLoading {
 	display: block;
 	width: 45px;
 	height: 33px;
-	background: url(../images/icon.png) 10px -2866px no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/icon.png) 10px -2866px no-repeat;
 }
 
 .search1 {
@@ -3113,7 +3113,7 @@ i.iLoading {
 	height: 32px;
 	float: right;
 	border-radius: 4px;
-	background: url("../images/search_b.png") no-repeat #FFFFFF;
+	background: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/search_b.png") no-repeat #FFFFFF;
 }
 
 .serach_sb {
@@ -3121,7 +3121,7 @@ i.iLoading {
 	height: 32px;
 	float: right;
 	border-radius: 4px;
-	background: url("../images/search_b.png") no-repeat #FFFFFF;
+	background: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/search_b.png") no-repeat #FFFFFF;
 	margin-top: 5px;
 }
 
@@ -3157,7 +3157,7 @@ i.iLoading {
 	overflow: hidden;
 	cursor: pointer;
 	border: 0;
-	background: url(../images/search.gif) center no-repeat #fff;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/search.gif) center no-repeat #fff;
 }
 
 .search_hotkey {
@@ -3296,7 +3296,7 @@ i.iLoading {
 }
 
 .SoResults li dl p.A_a a:hover {
-	background: url(../images/usebg.png) no-repeat 0 -589px;
+	background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/usebg.png) no-repeat 0 -589px;
 	color: #ffffff;
 	box-shadow: 1px 1px 4px #CCCCCC;
 }
@@ -3678,7 +3678,7 @@ i.iLoading {
 }
 
 .looked-list li span a {
-	background: url("../images/cross_gray.gif") no-repeat scroll 2px 2px transparent;
+	background: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/cross_gray.gif") no-repeat scroll 2px 2px transparent;
 	border: 1px solid #FFFFFF;
 	display: block;
 	font-size: 0;
@@ -3690,7 +3690,7 @@ i.iLoading {
 
 .looked-list li span a:hover {
 	background-color: #FFFFFF;
-	background-image: url("../images/cross_red.gif");
+	background-image: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/cross_red.gif");
 	border: 1px solid #DEDEDE;
 }
 

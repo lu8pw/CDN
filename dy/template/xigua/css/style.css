@@ -219,11 +219,11 @@ textarea {
 	border-radius:8px;
 }
 .ico {
-	background:url("../images/ff.png") no-repeat;
+	background:url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/ff.png") no-repeat;
 	overflow:hidden;
 }
 .bflogo {
-	background:url("../images/img.png")  no-repeat;
+	background:url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/img.png")  no-repeat;
 }
 .alink {
 	display:block;
@@ -236,7 +236,7 @@ textarea {
 .li_img {
 	position:relative;
 	width:100%;
-	background:#f5f5f5 url("../images/lazyload.gif") no-repeat center center;
+	background:#f5f5f5 url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/lazyload.gif") no-repeat center center;
 }
 .rgba1 {
 	position:absolute;
@@ -436,7 +436,7 @@ body {
 	color:#fff;
 	text-decoration:none;
 	border-color:#F99A6D;
-	background:url(../images/navbar-bg-green.gif) 0 0 repeat-x  #F99A6D;
+	background:url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/navbar-bg-green.gif) 0 0 repeat-x  #F99A6D;
 }
 .menu {
 	position:relative;
@@ -493,7 +493,7 @@ body {
 	z-index:1001;
 	right:0;
 	top:4px;
-	background:url(../images/hots.gif) no-repeat;
+	background:url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/hots.gif) no-repeat;
 }
 #subnav {
 	height:36px;
@@ -675,8 +675,8 @@ body {
 	height:28px;
 }
 .recommend_scroll_pg_lft,.recommend_scroll_pg_rgt,.play_hv,.play_hv2,.recommend_scroll_dot li a {
-	background-image:url(../images/sp.png);
-	_background-image:url(../images/sp_ie6.png);
+	background-image:url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/sp.png);
+	_background-image:url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/sp_ie6.png);
 	background-repeat:no-repeat
 }
 .recommend_scroll_pg_lft {
@@ -1213,7 +1213,7 @@ body {
 	overflow:hidden;
 	display:block;
 	margin-top:0px;
-	background:url(../images/logo.png) no-repeat;
+	background:url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/logo.png) no-repeat;
 	text-indent:-99999px;
 	background-size:130px 45px;
 }
@@ -1251,7 +1251,7 @@ body {
     border: 0;
     display: block;
     color: #fff;
-    background: #F5F5F5 url(../images/search.png) 8px 5px no-repeat;
+    background: #F5F5F5 url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/search.png) 8px 5px no-repeat;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     background-size: 20px 20px;
@@ -1268,7 +1268,7 @@ body {
 	width: 35px;
     height: 25px;
 	margin-top:4px;
-    background: url("../images/caidan.png") 5px 0 no-repeat;
+    background: url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/caidan.png") 5px 0 no-repeat;
 	background-size: 25px 25px;
 }
 .head a.caidan_btn span{
@@ -1333,7 +1333,7 @@ body {
 .slide .caption {display:block;position:absolute;z-index:2;height:22px;line-height:22px;text-shadow:none;color:#fff;background:#000;background:rgba(0,0,0,0.6);left:0;right:0;bottom:0;padding:5px;margin:0;max-width:none;overflow:hidden;}
 .slide .caption .sltitle {font-size:15px;}
 .slide .caption .sldes {font-size:13px;margin-left:10px;}
-.slide_nav {position:absolute;top:50%;display:block;width:28px;height:56px;margin-top:-28px;z-index:3;text-indent:-9999px;background:transparent url(../images/1f7Zl.png) no-repeat;overflow:hidden;}
+.slide_nav {position:absolute;top:50%;display:block;width:28px;height:56px;margin-top:-28px;z-index:3;text-indent:-9999px;background:transparent url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/1f7Zl.png) no-repeat;overflow:hidden;}
 .slide_nav:active {opacity:1.0;}
 .slide_container .prev {left:0;background-position:-28px -4px;}
 .slide_container .next {right:0;background-position:0 -4px;}
@@ -1855,7 +1855,7 @@ body {
 	background-position:-180px 0;
 }
 .ptit .ico_baidupan {
-	background:url("../images/baidupan.png") no-repeat;
+	background:url("https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/baidupan.png") no-repeat;
 	background-position:0 0;
 	float:left;
 	display:block;
@@ -2538,5 +2538,5 @@ a.active-on {background-color: #f60;}
     margin: 13px 8px 0 8px;
 }
 .downlogo {
-    background: url(../images/down.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/lu8pw/CDN/dy/template/xigua/images/down.png) no-repeat;
 }
