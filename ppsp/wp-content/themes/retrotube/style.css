@@ -4,7 +4,7 @@ Theme URI: https://www.wp-script.com/adult-wordpress-themes/retrotube/
 Author: WP-Script
 Author URI: https://www.wp-script.com
 Description: The most effective Adult WordPress Theme you've ever seen
-Version: 1.5.0
+Version: 1.6.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: wpst
@@ -948,6 +948,8 @@ height:0;
 #site-navigation li:hover > ul {
 	left:auto;
 	width: 100%;
+	min-width: 150px;
+	padding: 0;
 }
 
 #site-navigation li:hover > ul > li {
@@ -1658,13 +1660,13 @@ border-left: 1px solid #121212;
 	position: relative;
 	margin-top: 1px;
 	margin-bottom: 0.75em;
-	height: 180px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .bx-viewport {
 	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
 	border-bottom: 1px solid #151515;
-	height: 180px!important;
 }
 
 .bx-viewport .slide {
@@ -1679,12 +1681,9 @@ border-left: 1px solid #121212;
 .bx-viewport .slide img {
 	cursor: pointer;
 	width: 100%;
-	height: 180px;
 }
 
-.bx-viewport .slide .no-thumb {
-	height: 180px;
-}
+.bx-viewport .slide .no-thumb {}
 
 .bx-caption {
 	position: absolute;
@@ -1706,7 +1705,7 @@ border-left: 1px solid #121212;
 	font-size: 2em;
 	color: #fff;
 	display: block;
-	height: 180px;
+	height: 100%;
 	width: 35px;
 	opacity: 0.50;
 	filter: alpha(opacity =50);
@@ -2527,6 +2526,7 @@ height: 0.5em;
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	height: 0;
+	overflow: hidden;
 }
 
 .responsive-player iframe,
