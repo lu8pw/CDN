@@ -4,7 +4,7 @@ Theme URI: https://www.wp-script.com/adult-wordpress-themes/retrotube/
 Author: WP-Script
 Author URI: https://www.wp-script.com
 Description: The most effective Adult WordPress Theme you've ever seen
-Version: 1.6.0
+Version: 1.6.6
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: wpst
@@ -684,6 +684,10 @@ textarea {
 .label {
 	font-size: 0.8em;
 	padding: 0.2em 0.4em;
+}
+
+body.single-blog .label {
+	white-space: nowrap;
 }
 
 .label.secondary,
@@ -1893,6 +1897,15 @@ img[data-src].loaded {
 	font-size: 0.875em;
 }
 
+.thumb-block .photos-thumb {
+	position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 .thumb-block .post-thumbnail {
 	line-height: 0;
 	position: relative;
@@ -1900,7 +1913,6 @@ img[data-src].loaded {
 	width: 100%;
 	height:0;
 	background-color: #000;
-	/* padding-bottom: 56.25%; */
 }
 
 .post-thumbnail-container {
@@ -1918,7 +1930,6 @@ img[data-src].loaded {
 
 .thumb-block .post-thumbnail .wpst-trailer {
 	width: 100%;
-	object-fit: fill;
 }
 
 .video-debounce-bar {
@@ -2791,8 +2802,6 @@ align-self: center;
 .photo-content .gallery figure,
 .photo-content .wp-block-gallery figure {
 	margin: 0;
-	padding: 5px;
-	line-height: 0;
 	overflow: hidden;
 }
 
@@ -2815,7 +2824,6 @@ align-self: center;
 	-webkit-transition: 0.6s ease;
 	transition: 0.6s ease;
 	-ms-transition: 0.6s ease;
-	z-index: 99999;
 }
 
 .photo-content .gallery figure .gallery-icon:hover img,
@@ -2831,6 +2839,7 @@ body.photos-template-default .fancybox-container {
 .photo-content {
 	text-align: center;
 	position: relative;
+	z-index: 0;
 }
 
 .photo-content .prev-photo i,

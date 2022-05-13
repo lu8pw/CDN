@@ -294,6 +294,7 @@ jQuery(document).ready(function() {
         var eltWidthMain = jQuery(jQuery('.post-thumbnail')[0]).width();
         jQuery('.post-thumbnail img').height( eltWidthMain * ratio_format() );
         jQuery('.post-thumbnail .wpst-trailer').height( eltWidthMain * ratio_format() );
+        jQuery('.photos-thumb').height( eltWidthMain );
         jQuery('.photos .post-thumbnail .photo-bg').height( eltWidthMain );
         jQuery('.post-thumbnail .no-thumb').height( eltWidthMain * ratio_format() );
 
