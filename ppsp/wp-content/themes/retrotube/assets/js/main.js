@@ -355,7 +355,7 @@ jQuery( function() {
 				],
 			},
 		};
-		videojs(document.querySelector('.video-js'), playerOptions);
+		videojs(jQuery('.video-js'), playerOptions);
 	}
 
 	/** Tabs **/
