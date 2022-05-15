@@ -1641,7 +1641,6 @@ img[data-src].display-img {
 	position: relative;
 	overflow: hidden;
     width: 100%;
-    height: 0;
     background-color: #000;
 }
 
