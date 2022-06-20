@@ -342,7 +342,7 @@ jQuery( function() {
 	}
 
 	/** VideoJS loading **/
-	if (jQuery('.video-js').length > 0 && !wpst_ajax_var.ctpl_installed) {
+	if (jQuery('video.video-js').length > 0 && !wpst_ajax_var.ctpl_installed) {
 		var playerOptions = {
 			controlBar: {
 				children: [
@@ -355,7 +355,10 @@ jQuery( function() {
 				],
 			},
 		};
-		videojs(jQuery('.video-js'), playerOptions);
+		jQuery( 'video.video-js' ).each( function( index ) {
+			this.setAttribute( 'id', 'video-js-' + index );
+			videojs('video-js-' + index, playerOptions);
+		});
 	}
 
 	/** Tabs **/
