@@ -3,3 +3,10 @@
 @media (max-width: 768px){.sjbdmap{display: block !important;}}
 .pcbdmap{display: block;}
 @media (max-width: 768px){.pcbdmap{display: none;}
+
+/* 对联广告 */
+.fixediv{position:fixed;top:160px;z-index:9999;height:216px;width:160px;}
+*html .fixediv{position:absolute;top:expression(eval(document.documentElement.scrollTop));margin:140px 0 0 0;}
+.fixediv-l{left:0px;}
+.fixediv-r{right:0px;}
+.fixediv .btn{height:25px;background:#CCCCCC;text-align:right;line-height:25px;overflow:hidden;}
