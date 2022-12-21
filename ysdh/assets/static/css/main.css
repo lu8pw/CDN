@@ -7,7 +7,7 @@ html, body {
   margin: 0;
   font-size: 14px;
   color: #fff;
-  background: #060612 url("../images/bg.jpg") no-repeat top center;
+  background: #060612 url("https://cf.jare.io/?u=https://ysdh.bar/assets/static/images/bg.jpg") no-repeat top center;
   font-family: "-apple-system","PingFang TC","Microsoft JhengHei","Source Sans Pro", Helvetica, sans-serif; }
 
 .input_form {
@@ -128,7 +128,7 @@ section {
 
 .title_bg {
   position: relative;
-  background: url("../images/title_bg.png") no-repeat left;
+  background: url("https://cf.jare.io/?u=https://ysdh.bar/assets/static/images/title_bg.png") no-repeat left;
   width: 165px;
   height: 48px; }
   .title_bg span {
@@ -235,7 +235,7 @@ section {
     width: 96%;
     padding: 1rem 0 .6rem 0;
     vertical-align: top;
-    background: #fff url("../images/bg_mainapp.png") no-repeat left top;
+    background: #fff url("https://cf.jare.io/?u=https://ysdh.bar/assets/static/images/bg_mainapp.png") no-repeat left top;
     background-size: 20% 100%; }
     .col-md-12 .hot_app_box::before {
       content: '';
@@ -383,12 +383,12 @@ p {
   margin: 0; }
 
 .section_hot_app {
-  background: url("../images/img_right.png") no-repeat 100% 20%; }
+  background: url("https://cf.jare.io/?u=https://ysdh.bar/assets/static/images/img_right.png") no-repeat 100% 20%; }
 
 .section_link {
   position: relative;
   width: 100%;
-  background: #051249 url("../images/bg_blue_left.jpg") no-repeat left bottom;
+  background: #051249 url("https://cf.jare.io/?u=https://ysdh.bar/assets/static/images/bg_blue_left.jpg") no-repeat left bottom;
   padding-bottom: 3rem;
   margin: 0;
   margin-top: -2rem;
@@ -447,7 +447,7 @@ p {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e1e5e8',GradientType=0 ); }
 
 footer {
-  background: url("../images/footer_star.png") no-repeat 96% 50%;
+  background: url("https://cf.jare.io/?u=https://ysdh.bar/assets/static/images/footer_star.png") no-repeat 96% 50%;
   margin: 3rem; }
   footer .footer_box {
     border-bottom: 1px solid #6475C9;
@@ -474,16 +474,16 @@ footer {
   margin-left: 0px; }
 
 .app_download_desktop {
-  background: url("../images/button-desktop.png") no-repeat; }
+  background: url("https://cf.jare.io/?u=https://ysdh.bar/assets/static/images/button-desktop.png") no-repeat; }
 
 .app_download_desktop {
   display: inline-block; }
 
 .app_download_ios {
-  background: url("../images/button-ios.png") no-repeat; }
+  background: url("https://cf.jare.io/?u=https://ysdh.bar/assets/static/images/button-ios.png") no-repeat; }
 
 .app_download_and {
-  background: url("../images/button-and.png") no-repeat; }
+  background: url("https://cf.jare.io/?u=https://ysdh.bar/assets/static/images/button-and.png") no-repeat; }
 
 .app_download_ios, .app_download_and {
   display: none; }
@@ -504,7 +504,7 @@ footer {
   height: 43px;
   display: none;
   margin: 0 auto;
-  background: url("../images/icon-copy.png") no-repeat center center;
+  background: url("https://cf.jare.io/?u=https://ysdh.bar/assets/static/images/icon-copy.png") no-repeat center center;
   color: #080609;
   text-align: center;
   font-size: 12px;
@@ -722,7 +722,7 @@ footer {
 
 .section_recommend {
   margin-top: 2rem;
-  background: url("../images/icon_circlex3.png") no-repeat 10% 60%; }
+  background: url("https://cf.jare.io/?u=https://ysdh.bar/assets/static/images/icon_circlex3.png") no-repeat 10% 60%; }
 
 .hot_app_box_more {
   padding-bottom: 10px;
