@@ -1,4 +1,4 @@
-document.writeln("<script async type=\"application/javascript\" src=\"https://a.realsrv.com/ad-provider.js\"></script> ");
+document.writeln("<script async type=\"application/javascript\" src=\"https://a.888100.xyz/ad-provider.js\"></script> ");
 document.writeln("<div class=\"pcbdmap\" style=\"text-align: center;\">");
 document.writeln("<ins class=\"adsbyexoclick\" data-zoneid=\"4862496\"></ins> ");
 document.writeln("<ins class=\"adsbyexoclick\" data-zoneid=\"4862498\"></ins>");
