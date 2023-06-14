@@ -1,0 +1,10 @@
+document.writeln("<script async type=\"application/javascript\" src=\"https://a.realsrv.com/ad-provider.js\"></script> ");
+document.writeln("<div class=\"pcbdmap\" style=\"text-align: center;\">");
+document.writeln("<ins class=\"adsbyexoclick\" data-zoneid=\"4862508\"></ins>");
+document.writeln("<ins class=\"adsbyexoclick\" data-zoneid=\"4862512\"></ins>");
+document.writeln("</div>");
+document.writeln("<div class=\"sjbdmap\" style=\"text-align: center;\">");
+document.writeln("<ins class=\"adsbyexoclick\" data-zoneid=\"4862516\"></ins>");
+document.writeln("<ins class=\"adsbyexoclick\" data-zoneid=\"4862520\"></ins>");
+document.writeln("</div>");
+document.writeln(" <script>(AdProvider = window.AdProvider || []).push({\"serve\": {}});</script>");
